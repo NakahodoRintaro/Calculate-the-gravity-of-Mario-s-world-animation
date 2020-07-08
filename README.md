@@ -1,4 +1,4 @@
-# Calculate_the_gravity_of_Mario_world_animation
+# Calculate the gravity of Mario world animation
 Calculate the gravity of Mario's world and make an animation comparing the gravity of the moon, the earth and Mario's world.
 
 ## The following movie was made by calculating the gravitational acceleration based on the frame rate from the following movie.<br>
