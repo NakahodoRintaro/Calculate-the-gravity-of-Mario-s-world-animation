@@ -1,4 +1,7 @@
 //moonの方は動作が重い
+//動かない場合はmario_moon_plus.ipynbを使用
+//The moon one is sluggish.
+//If it doesn't work, use mario_moon_plus.ipynb
 %matplotlib inline
 #%matplotlib nbagg # JupyterLabでは上手く動かないので今回は使わない。
 import matplotlib.pyplot as plt
@@ -97,3 +100,5 @@ ani = ArtistAnimation(fig, artist_list, interval = 100)
 
 plt.close() 
 HTML(ani.to_jshtml())
+
+ani.save('./anime_mario.mp4', writer="ffmpeg") # mp4で保存するなら
